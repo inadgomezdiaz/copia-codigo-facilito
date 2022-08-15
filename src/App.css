@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 18px;
+  background-color: f5f6f7;
+  font-family: dm sans, sans-serif;
+  color: #051626;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+
+}
+
+.contenedor-titulo {
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.contenedor-aviso {
+  padding: 10px;
+  background-color: #F1CB49;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.contenedor-aviso>p {
+  margin: 5px;
+}
+
+.contenedor-taller {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  column-gap: 20px;
+
+}

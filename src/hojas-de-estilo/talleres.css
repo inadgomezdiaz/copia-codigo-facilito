@@ -1,0 +1,60 @@
+.contenedor-taller{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  align-content:center;
+  border: 1px solid;
+  border-radius: 10px;
+  min-height: 310px;
+  min-width: 300px;
+  max-width: 350px;
+  max-height: 310px;
+  box-shadow: 2px 4px 10px 4px grey;
+  border-color: transparent;
+}
+.contenedor-encargado{
+  display:flex;
+  align-items:center;
+  padding :10px;
+  column-gap: 20px;
+  row-gap: 1px;
+}
+.img-taller{  
+  border-radius: 150%;
+  height: 80px;
+  width: 80px;
+  padding :10px;
+}
+
+
+
+.nombre-taller{
+  padding: 10px;
+  margin-left: 5px;
+  
+}
+.contenedor-texto-encargado>p:first-child{
+  font-weight: 800;
+  font-size: 16px;
+}
+.contenedor-texto-encargado>p:nth-child(2){
+  font-size: 13px;
+}
+.fecha-taller{
+  font-weight:200; 
+  align-self: flex-start;
+  font-size: 1rem;
+  padding :10px;
+  color: #1F9;
+}
+.boton-de-añadir{
+  width:90%;
+  height: 50px;
+  margin:7px;
+  border-radius: 20px;
+  border: 1px solid ;
+}
+.boton-de-añadir:hover{
+  background-color: #000;
+  color:#FFF;
+}
